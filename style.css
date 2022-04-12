@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+
+.btn-burger {
+  width: 80px;
+  height: 80px;
+  background-image: url("menu.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.btn-burger:hover {
+  opacity: 0.8;
+}
+
+.colors {
+  position: fixed;
+  left: -40px;
+  top: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+.colors ul {
+  visibility: hidden;
+}
+
+.colors ul li {
+  list-style: none;
+}
+
+.colors ul li button {
+  display: block;
+  height: 60px;
+  width: 150px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.blue-background {
+  background-color: blue;
+}
+.blue-background:after {
+  content: "blue";
+  font-size: 30px;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.green-background {
+  background-color: green;
+}
+.green-background:after {
+  content: "green";
+  font-size: 30px;
+}
+
+#green {
+  background-color: green;
+}
+
+.red-background {
+  background-color: red;
+}
+.red-background:after {
+  content: "red";
+  font-size: 30px;
+}
+
+#red {
+  background-color: red;
+}
+
+.orange-background {
+  background-color: orange;
+}
+.orange-background:after {
+  content: "orange";
+  font-size: 30px;
+}
+
+#orange {
+  background-color: orange;
+}
